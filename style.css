@@ -108,6 +108,14 @@ h2 {
   padding: 20px 0;
 }
 
+.tertiary-container p {
+  border: 3px solid #232323;
+  border-radius: 5px;
+  margin: 6px 8px;
+  padding: 8px 6px;
+  font-weight: 600;
+}
+
 .first-tertiary-container {
   width: 300px;
 }
@@ -154,9 +162,12 @@ h2 {
 }
 
 .p-group p {
-  border: 3px solid #16394a;
+  border: 3px solid gray;
   border-radius: 5px;
   margin: 6px 8px;
+  padding: 8px 6px;
+  border: 3px solid #232323;
+  font-weight: 600;
 }
 
 .linear-g-container {
@@ -168,4 +179,12 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: 20px 0;
+}
+
+.linear-g-container p {
+  border: 3px solid #232323;
+  border-radius: 5px;
+  margin: 6px 8px;
+  padding: 8px 6px;
+  font-weight: 600;
 }
