@@ -7,7 +7,7 @@ p {
 p {
   padding: 0;
   margin: 2px;
-  /*width: 400px;*/
+  width: 400px;
 }
 
 h2 {
@@ -125,8 +125,7 @@ h2 {
   margin: 0 auto;
 }
 
-.tertiary-container h2,
-.complementary-container h2 {
+.tertiary-container h2 {
   font-size: 24px;
   align-self: center;
   text-align: center;
@@ -143,6 +142,36 @@ h2 {
   align-items: center;
 }
 
+.complementary-container h2 {
+  font-size: 24px;
+  align-self: center;
+  text-align: center;
+}
+
 .complementary-container p {
   text-align: center;
+}
+
+.p-group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-group p {
+  border: 3px solid #16394a;
+  border-radius: 5px;
+  margin: 6px 8px;
+}
+
+.linear-g-container {
+  background-color: bisque;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
