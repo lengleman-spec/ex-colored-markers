@@ -4,8 +4,14 @@ p {
   text-align: center;
 }
 
+p {
+  padding: 0;
+  margin: 2px;
+  /*width: 400px;*/
+}
+
 h2 {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .marker {
@@ -119,14 +125,8 @@ h2 {
   margin: 0 auto;
 }
 
-.tertiary-container p {
-  width: 200px;
-  margin: 0 auto;
-  font-size: 20px;
-  display: inline-flex;
-}
-
-.tertiary-container h2 {
+.tertiary-container h2,
+.complementary-container h2 {
   font-size: 24px;
   align-self: center;
   text-align: center;
@@ -137,4 +137,12 @@ h2 {
   border-radius: 10px;
   width: 100%;
   padding: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.complementary-container p {
+  text-align: center;
 }
