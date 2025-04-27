@@ -216,7 +216,7 @@ h2 {
 }
 
 .sleeve {
-  width: 150px;
+  width: 180px;
   height: 25px;
   background-color: rgba(
     255,
@@ -238,5 +238,22 @@ h2 {
 }
 
 #red-marker {
-  box-shadow: 0 0 10px 0 rgba(255, 0, 0, 0.8); /* The box-shadow property is responsible for giving the markers their signature marker look. Syntax: box-shadow: offsetX offsetY blurRadius spreadRadius color; */
+  box-shadow: 0 0 10px 0 rgba(83, 14, 14, 0.8); /* The box-shadow property is responsible for giving the markers their signature marker look. Syntax: box-shadow: offsetX offsetY blurRadius spreadRadius color; */
+  background: linear-gradient(
+    rgb(122, 74, 14),
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
+  );
+}
+#green-marker {
+  box-shadow: 0 0 10px 0 #3b7e20cc;
+  background: linear-gradient(#55680d, #71f53e, #116c31);
+}
+#blue-marker {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 255, 0.8);
+  background: linear-gradient(
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
 }
