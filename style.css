@@ -224,6 +224,7 @@ h2 {
     255,
     0.5
   ); /* Note: gives the sleeve (div) a transparent white color. Also could have used the opacity property, which also controls the level of fogginess, but in this case the rgba() uses less code */
+  border-left: 10px double rgba(0, 0, 0, 75%);
 }
 
 .cap {
@@ -234,4 +235,8 @@ h2 {
 .cap,
 .sleeve {
   display: inline-block;
+}
+
+#red-marker {
+  box-shadow: 0 0 10px 0 rgba(255, 0, 0, 0.8); /* The box-shadow property is responsible for giving the markers their signature marker look. Syntax: box-shadow: offsetX offsetY blurRadius spreadRadius color; */
 }
